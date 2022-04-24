@@ -1,1 +1,119 @@
-<mxfile host="app.diagrams.net" modified="2022-03-17T02:01:12.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" version="17.1.3" etag="5kOYkfFtn-X6TU9UvYZQ" type="github"><diagram id="SqcoLtMPShrT2rfYQI2C">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-24T10:04:38.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="uylBuV9UsKoQ5bVYqW6f" version="17.4.6" type="github">
+  <diagram id="SqcoLtMPShrT2rfYQI2C" name="Page-1">
+    <mxGraphModel dx="1255" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DFHjte2n_Ca_MDyK3pCO-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-4" value="根据预测标记价格进行预测" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=default;" edge="1" parent="1" source="DFHjte2n_Ca_MDyK3pCO-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-6" value="组装预测对象bo对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-7" value="获取专用线程池" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-14" value="替换有效合约id,预测标记价格" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-19" value="获取柜台分片信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;fontColor=default;" edge="1" parent="1" source="DFHjte2n_Ca_MDyK3pCO-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-20" value="预测全仓" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;fontColor=default;" edge="1" parent="1" source="DFHjte2n_Ca_MDyK3pCO-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-21" value="预测逐仓" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-22" value="调用预测方案方法" style="swimlane;labelBackgroundColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="200" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-28" value="预测逐仓" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="130" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-36" value="调用柜台全仓预测处理逻辑forecastCrossProcess" style="swimlane;labelBackgroundColor=none;fontColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="670" width="600" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-33" value="调用柜台全仓预测处理逻辑forecastCrossLogic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="DFHjte2n_Ca_MDyK3pCO-36">
+          <mxGeometry x="10" y="110" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-38" value="发送告警消息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="DFHjte2n_Ca_MDyK3pCO-36">
+          <mxGeometry x="160" y="110" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-39" value="获取保证金计算因子（调用measure）marginCalForecast" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="DFHjte2n_Ca_MDyK3pCO-36">
+          <mxGeometry x="10" y="30" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-40" value="调用柜台进行爆仓预测&lt;br&gt;requestCrossForecastData" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="DFHjte2n_Ca_MDyK3pCO-36">
+          <mxGeometry x="160" y="30" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-41" value="生成Map&amp;lt;Integer, PtfIndexMarginCal&amp;gt;对象" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="DFHjte2n_Ca_MDyK3pCO-36">
+          <mxGeometry x="310" y="30" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-42" value="生成ContextAssistBO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="DFHjte2n_Ca_MDyK3pCO-36">
+          <mxGeometry x="450" y="30" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-37" value="调用柜台全仓预测处理逻辑forecastIsolateProcess" style="swimlane;labelBackgroundColor=none;fontColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="550" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-29" value="调整标记价格，预测逐仓用户是否强平replicaIsolateLiqForecast" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="DFHjte2n_Ca_MDyK3pCO-37">
+          <mxGeometry x="20" y="40" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-31" value="发送告警消息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="DFHjte2n_Ca_MDyK3pCO-37">
+          <mxGeometry x="170" y="40" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;fontColor=default;" edge="1" parent="DFHjte2n_Ca_MDyK3pCO-37" source="DFHjte2n_Ca_MDyK3pCO-29" target="DFHjte2n_Ca_MDyK3pCO-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=default;" edge="1" parent="1" source="DFHjte2n_Ca_MDyK3pCO-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="960" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="945" y="680" />
+              <mxPoint x="1060" y="680" />
+              <mxPoint x="1060" y="910" />
+              <mxPoint x="509" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-43" value="减仓判断" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="880" y="700" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-76" value="预测减仓" style="swimlane;labelBackgroundColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="980" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-34" value="计算全仓用户风险率calCrossMmr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="DFHjte2n_Ca_MDyK3pCO-76">
+          <mxGeometry x="30" y="189" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-51" value="getAllBSDeltaMap&amp;nbsp; ？？？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="DFHjte2n_Ca_MDyK3pCO-76">
+          <mxGeometry x="30" y="115" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-35" value="预算逻辑处理&lt;br&gt;doBudget" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="DFHjte2n_Ca_MDyK3pCO-76">
+          <mxGeometry x="30" y="45" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DFHjte2n_Ca_MDyK3pCO-77" value="&lt;span&gt;爆仓预测代码梳理&lt;/span&gt;" style="shape=card;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-10" width="360" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
